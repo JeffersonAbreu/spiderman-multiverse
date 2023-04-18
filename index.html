@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/assets/css/home-page-styles.css">
-  <script src="/assets/scripts/card-hover-animation.js"></script>
+  <script src="/assets/scripts/script.js"></script>
   <title>Spider-Man | Multiverso da loucura</title>
 </head>
 
@@ -51,9 +51,9 @@
   </div>
 
   <div class="s-controller">
-    <div class="s-controller__button s-controller__button--active">01</div>
-    <div class="s-controller__button">02</div>
-    <div class="s-controller__button">03</div>
+    <div id="1" onclick="selectCarouselItem(this)" class="s-controller__button s-controller__button--active">01</div>
+    <div id="2" onclick="selectCarouselItem(this)" class="s-controller__button">02</div>
+    <div id="3" onclick="selectCarouselItem(this)" class="s-controller__button">03</div>
     <div class="s-controller__line"></div>
   </div>
 </body>
